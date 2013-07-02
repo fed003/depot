@@ -6,6 +6,18 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+<<<<<<< HEAD
+=======
+#---
+# Excerpted from "Agile Web Development with Rails",
+# published by The Pragmatic Bookshelf.
+# Copyrights apply to this code. It may not be used to create training material, 
+# courses, books, articles, and the like. Contact us if you are in doubt.
+# We make no guarantees that this code is fit for any purpose. 
+# Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
+#---
+# encoding: utf-8
+>>>>>>> 689d1183b20607793fab429a1dae87788efbdc5d
 Product.delete_all
 Product.create(title: 'CoffeeScript',
   description: 
@@ -41,4 +53,8 @@ Product.create(title: 'Rails Test Prescriptions',
         including Cucumber, Shoulda, Machinist, Mocha, and Rcov.
       </p>},
   image_url: 'rtp.jpg',
+<<<<<<< HEAD
   price: 34.95)
+=======
+  price: 34.95)
+>>>>>>> 689d1183b20607793fab429a1dae87788efbdc5d

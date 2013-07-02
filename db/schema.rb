@@ -9,6 +9,7 @@
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
+<<<<<<< HEAD
 # It's strongly recommended to check this file into your version control system.
 
 ActiveRecord::Schema.define(:version => 20130702042257) do
@@ -20,6 +21,19 @@ ActiveRecord::Schema.define(:version => 20130702042257) do
     t.decimal  "price",       :precision => 8, :scale => 2
     t.datetime "created_at",                                :null => false
     t.datetime "updated_at",                                :null => false
+=======
+# It's strongly recommended that you check this file into your version control system.
+
+ActiveRecord::Schema.define(version: 20130630182529) do
+
+  create_table "products", force: true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "image_url"
+    t.decimal  "price",       precision: 8, scale: 2
+    t.datetime "created_at"
+    t.datetime "updated_at"
+>>>>>>> 689d1183b20607793fab429a1dae87788efbdc5d
   end
 
 end

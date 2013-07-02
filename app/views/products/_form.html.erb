@@ -12,6 +12,7 @@
   <% end %>
 
   <div class="field">
+<<<<<<< HEAD
     <%= f.label :title %><br />
     <%= f.text_field :title %>
   </div>
@@ -25,6 +26,21 @@
   </div>
   <div class="field">
     <%= f.label :price %><br />
+=======
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description, rows: 6 %>
+  </div>
+  <div class="field">
+    <%= f.label :image_url %><br>
+    <%= f.text_field :image_url %>
+  </div>
+  <div class="field">
+    <%= f.label :price %><br>
+>>>>>>> 689d1183b20607793fab429a1dae87788efbdc5d
     <%= f.text_field :price %>
   </div>
   <div class="actions">
